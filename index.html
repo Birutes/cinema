@@ -7,7 +7,7 @@
   <script
 src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
 ></script>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 </head>
 
@@ -15,67 +15,86 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
 	<header>
 		<h1>CINEMA</h1>
 	</header>
-	<nav id="navigation">
+	<div class="row">
+	<div class="col-lg-6 col-md-12">
+		<nav class="navbar navbar-default">
+			<ul>
+				<li>History</li>
+				<li>Film theory</li>
+				<li>Industry</li>
+				<li>Terminology</li>
+				<button type="button" id="interactive-button">Learn More</button>
+				<button type="button">More On Films</button>
+			</ul>
+		</nav>
+	</div>
+	<div class="col-lg-6 col-md-12">
 		<ul>
-			<li>History</li>
-			<li>Film theory</li>
-			<li>Industry</li>
-			<li>Terminology</li>
-			<button type="button" id="interactive-button">Learn More</button>
-			<button type="button">More On Films</button>
-			<button type="button" class="button">More On Films</button>
-			<button type="button" class="button">More On Films</button>
-			<button type="button" class="button">More On Films</button>
-			<button type="button" class="button">More On Films</button>
-			<button type="button" class="button" id="last">More On Films</button>
-			<div id="first">pirmas</div>
-			<div id="second">antras</div>
-			<div id="third">trecias</div>
-			<div id="fourth">ketvirtas</div>
-			<div id="fifth">penktas</div>
-			<div id="sixth">sestas</div>
-			<div id="seventh">septintas</div>
-			<div id="eight">astuntas</div>
-			<div id="ninth">devintas</div>
-			<div id="tenth">desimtas</div>
-
+			<li><button type="button" class="button">More On Films</button></li>
+			<li><button type="button" class="button">More On Films</button></li>
+			<li><button type="button" class="button">More On Films</button></li>
+			<li><button type="button" class="button">More On Films</button></li>
+			<li><button type="button" class="button" id="last">More On Films</button></li>
 		</ul>
-	</nav>
+	</div>
+	<div class="col-lg-12 col-md-12">
+		<ul class="hidden-sm hidden-xs">
+			<li><div id="first">pirmas</div></li>
+			<li><div id="second">antras</div></li>
+			<li><div id="third">trecias</div></li>
+			<li><div id="fourth">ketvirtas</div></li>
+			<li><div id="fifth">penktas</div></li>
+			<li><div id="sixth">sestas</div></li>
+			<li><div id="seventh">septintas</div></li>
+			<li><div id="eight">astuntas</div></li>
+			<li><div id="ninth">devintas</div></li>
+			<li><div id="tenth">desimtas</div></li>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-lg-8 col-md-9">
+			<div id="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<img src="img/mirror.jpg" class="img-responsive" alt="mirror" height="250" width="250">
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					</div>
+					<div class="col-lg-6">
+						<img src="img/persona.jpg" class="img-responsive" alt="mirror" height="250" width="250">
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">			
+						<img src="img/mulholland_drive.jpg" class="img-responsive" alt="mulholland drive" height="250" width="250">
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					</div>
+					<div class="col-lg-6">
+						<img src="img/space_odissey.jpg" class="img-responsive" alt="space odissey" height="250" width="250">
+						<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					</div>
+				</div>
+			</div> <!-- #container -->
+		</div> <!-- .col-md-12 -->
+
+		<div class="col-lg-4 col-md-3">
+			<div id="sidebar" class="row">
+			<h1>The 50 Greatest Films of All Time</h1>
+			<p>1.Vertigo <br />2.Citizen Kane<br />3.Tokyo story <br />4.2001: A space odyssey <br />5.Man with a movie camera <br />6.The searchers</p>
+			</div>
+		</div>
+	</div>
 	
 
-	<div id="container">
-		<article>
-			<div class="pirmas_stulpelis">
-				<img src="img/mirror.jpg" alt="mirror" height="250" width="250">
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-			</div>
-
-			<div class="antras_stulpelis">
-				<img src="img/persona.jpg" alt="mirror" height="250" width="250">
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-			</div>
-		</article>
-		<article>
-			<div class="pirmas_stulpelis">
-				<img src="img/mulholland_drive.jpg" alt="mulholland drive" height="250" width="250">
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-			</div>
-
-			<div class=antras_stulpelis">
-				<img src="img/space_odissey.jpg" alt="space odissey" height="250" width="250">
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-			</div>
-		</article>
+	<div class="row">
+		<div class="col-lg-12">
+			<footer id="footer">
+				<strong>2016</strong>
+			</footer>
+		</div>
 	</div>
-
-	<sidebar id="sidebar">
-		<h1>The 50 Greatest Films of All Time</h1>
-		<p>1.Vertigo <br />2.Citizen Kane<br />3.Tokyo story <br />4.2001: A space odyssey <br />5.Man with a movie camera <br />6.The searchers</p>
-	</sidebar>
-
-	<footer id="footer">
-		<strong>2016</strong>
-	</footer>
 	
 	  <script type="text/javascript" src="cinema2.js"></script>
 

@@ -8,9 +8,6 @@ li {
 }
 
 #container {
-	float:left;
-	width:70%;
-	height:100%;
 	background: url("img/2background.jpg");
 }
 
@@ -25,8 +22,6 @@ li {
 }
 
 #sidebar {
-	float: right;
-	width:30%;
 	height:100%;
 	background: url("img/1background.png");
 }
@@ -53,71 +48,71 @@ li {
 
 #first {
 	background:black;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #second {
 	background:red;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #third {
 	background:yellow;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #fourth {
 	background:blue;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #fifth {
 	background:violet;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #sixth {
 	background:green;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #seventh {
 	background:purple;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #eight {
 	background:grey;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #ninth {
 	background:#3d3d3d;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
 #tenth {
 	background:#6f6f6f;
+	float:left;
 	width:3%;
-	float:right;
 	height:3%;
 }
 
