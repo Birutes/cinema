@@ -1,10 +1,9 @@
 $(document).ready(function() {
 	$('#first').on('click', function() {
-		$(this).toggleClass('animation1');
-			});
-
-	$('#second').on('click', function() {
-		$(this).toggleClass('animation2');
+		var $this = $(this);
+		var animationType = $this.data("class");
+		$this.toggleClass(animationType);
+		$('#second').toggleClass('animation2');
 			});
 
 	$('#third').on('click', function() {
