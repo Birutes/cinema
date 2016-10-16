@@ -4,4 +4,5 @@ $(document).ready(function() {
 		var animationType = $this.data("animation");
 		$this.toggleClass(animationType);
 			});
+});
 	
